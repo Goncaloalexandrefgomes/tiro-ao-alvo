@@ -110,6 +110,9 @@
         Beep()
         Dim resposta = MsgBox("Tem a Certeza", vbYesNo, "Novo Jogo")
         If resposta = vbNo Then Return
-        Inicializa()
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Cursor = Cursors.Cross
     End Sub
 End Class
