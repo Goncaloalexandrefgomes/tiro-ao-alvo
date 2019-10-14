@@ -7,7 +7,7 @@
                                     elapsed.Minutes, elapsed.Seconds, elapsed.Milliseconds)
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If Button1.Text = "Start" Then
             Timer1.Start()
             stopwatch.Start()
@@ -21,14 +21,18 @@
         End If
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         ListBox1.Items.Add(ListBox1.Items.Count + 1 & ". " & Label1.Text)
     End Sub
 
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         stopwatch.Reset()
         Label1.Text = "00:00:00:00"
     End Sub
+
+
+
+
 
     Private Sub Um_Click(sender As Object, e As EventArgs) Handles um.Click
         um.Visible = False
@@ -106,6 +110,6 @@
         Beep()
         Dim resposta = MsgBox("Tem a Certeza", vbYesNo, "Novo Jogo")
         If resposta = vbNo Then Return
-        inicializa()
+        Inicializa()
     End Sub
 End Class

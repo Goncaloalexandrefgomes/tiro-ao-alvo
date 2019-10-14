@@ -402,7 +402,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(28, 25)
+        Me.Label1.Location = New System.Drawing.Point(24, 25)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(126, 25)
         Me.Label1.TabIndex = 24
@@ -411,17 +411,17 @@ Partial Class Form1
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(599, 10)
+        Me.ListBox1.Location = New System.Drawing.Point(620, 10)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(189, 95)
+        Me.ListBox1.Size = New System.Drawing.Size(168, 95)
         Me.ListBox1.TabIndex = 25
         '
         'Button4
         '
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(316, 368)
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(211, 380)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(141, 37)
+        Me.Button4.Size = New System.Drawing.Size(103, 28)
         Me.Button4.TabIndex = 26
         Me.Button4.Text = "Novo Jogo"
         Me.Button4.UseVisualStyleBackColor = True
