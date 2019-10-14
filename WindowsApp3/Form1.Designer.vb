@@ -22,44 +22,44 @@ Partial Class Form1
     'Não o modifique usando o editor de códigos.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.dois = New System.Windows.Forms.Button()
+        Me.um = New System.Windows.Forms.Button()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.ProgressBar2 = New System.Windows.Forms.ProgressBar()
         Me.ProgressBar3 = New System.Windows.Forms.ProgressBar()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
+        Me.dois = New System.Windows.Forms.Button()
+        Me.oito = New System.Windows.Forms.Button()
+        Me.seis = New System.Windows.Forms.Button()
+        Me.treze = New System.Windows.Forms.Button()
+        Me.quinze = New System.Windows.Forms.Button()
+        Me.quatro = New System.Windows.Forms.Button()
+        Me.onze = New System.Windows.Forms.Button()
+        Me.tres = New System.Windows.Forms.Button()
+        Me.cinco = New System.Windows.Forms.Button()
+        Me.sete = New System.Windows.Forms.Button()
+        Me.nove = New System.Windows.Forms.Button()
+        Me.dez = New System.Windows.Forms.Button()
+        Me.quatorze = New System.Windows.Forms.Button()
+        Me.dezasseis = New System.Windows.Forms.Button()
+        Me.dezoito = New System.Windows.Forms.Button()
+        Me.dezasete = New System.Windows.Forms.Button()
+        Me.doze = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'dois
+        'um
         '
-        Me.dois.BackColor = System.Drawing.Color.Transparent
-        Me.dois.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
-        Me.dois.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.dois.FlatAppearance.BorderSize = 0
-        Me.dois.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.dois.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.dois.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.dois.ForeColor = System.Drawing.Color.Transparent
-        Me.dois.Location = New System.Drawing.Point(238, 205)
-        Me.dois.Name = "dois"
-        Me.dois.Size = New System.Drawing.Size(37, 32)
-        Me.dois.TabIndex = 0
-        Me.dois.UseVisualStyleBackColor = False
+        Me.um.BackColor = System.Drawing.Color.Transparent
+        Me.um.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
+        Me.um.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.um.FlatAppearance.BorderSize = 0
+        Me.um.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.um.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.um.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.um.ForeColor = System.Drawing.Color.Transparent
+        Me.um.Location = New System.Drawing.Point(238, 205)
+        Me.um.Name = "um"
+        Me.um.Size = New System.Drawing.Size(37, 32)
+        Me.um.TabIndex = 0
+        Me.um.UseVisualStyleBackColor = False
         '
         'ProgressBar1
         '
@@ -88,277 +88,277 @@ Partial Class Form1
         Me.ProgressBar3.Size = New System.Drawing.Size(359, 5)
         Me.ProgressBar3.TabIndex = 3
         '
-        'Button1
+        'dois
         '
-        Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.ForeColor = System.Drawing.Color.Transparent
-        Me.Button1.Location = New System.Drawing.Point(306, 205)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(37, 32)
-        Me.Button1.TabIndex = 4
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.dois.BackColor = System.Drawing.Color.Transparent
+        Me.dois.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
+        Me.dois.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.dois.FlatAppearance.BorderSize = 0
+        Me.dois.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.dois.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.dois.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.dois.ForeColor = System.Drawing.Color.Transparent
+        Me.dois.Location = New System.Drawing.Point(306, 205)
+        Me.dois.Name = "dois"
+        Me.dois.Size = New System.Drawing.Size(37, 32)
+        Me.dois.TabIndex = 4
+        Me.dois.UseVisualStyleBackColor = False
         '
-        'Button2
+        'oito
         '
-        Me.Button2.BackColor = System.Drawing.Color.Transparent
-        Me.Button2.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.ForeColor = System.Drawing.Color.Transparent
-        Me.Button2.Location = New System.Drawing.Point(306, 268)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(37, 32)
-        Me.Button2.TabIndex = 5
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.oito.BackColor = System.Drawing.Color.Transparent
+        Me.oito.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
+        Me.oito.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.oito.FlatAppearance.BorderSize = 0
+        Me.oito.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.oito.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.oito.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.oito.ForeColor = System.Drawing.Color.Transparent
+        Me.oito.Location = New System.Drawing.Point(306, 268)
+        Me.oito.Name = "oito"
+        Me.oito.Size = New System.Drawing.Size(37, 32)
+        Me.oito.TabIndex = 5
+        Me.oito.UseVisualStyleBackColor = False
         '
-        'Button3
+        'seis
         '
-        Me.Button3.BackColor = System.Drawing.Color.Transparent
-        Me.Button3.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
-        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button3.FlatAppearance.BorderSize = 0
-        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.ForeColor = System.Drawing.Color.Transparent
-        Me.Button3.Location = New System.Drawing.Point(174, 268)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(37, 32)
-        Me.Button3.TabIndex = 6
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.seis.BackColor = System.Drawing.Color.Transparent
+        Me.seis.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
+        Me.seis.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.seis.FlatAppearance.BorderSize = 0
+        Me.seis.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.seis.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.seis.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.seis.ForeColor = System.Drawing.Color.Transparent
+        Me.seis.Location = New System.Drawing.Point(174, 268)
+        Me.seis.Name = "seis"
+        Me.seis.Size = New System.Drawing.Size(37, 32)
+        Me.seis.TabIndex = 6
+        Me.seis.UseVisualStyleBackColor = False
         '
-        'Button4
+        'treze
         '
-        Me.Button4.BackColor = System.Drawing.Color.Transparent
-        Me.Button4.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
-        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button4.FlatAppearance.BorderSize = 0
-        Me.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.ForeColor = System.Drawing.Color.Transparent
-        Me.Button4.Location = New System.Drawing.Point(221, 330)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(37, 32)
-        Me.Button4.TabIndex = 7
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.treze.BackColor = System.Drawing.Color.Transparent
+        Me.treze.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
+        Me.treze.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.treze.FlatAppearance.BorderSize = 0
+        Me.treze.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.treze.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.treze.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.treze.ForeColor = System.Drawing.Color.Transparent
+        Me.treze.Location = New System.Drawing.Point(221, 330)
+        Me.treze.Name = "treze"
+        Me.treze.Size = New System.Drawing.Size(37, 32)
+        Me.treze.TabIndex = 7
+        Me.treze.UseVisualStyleBackColor = False
         '
-        'Button5
+        'quinze
         '
-        Me.Button5.BackColor = System.Drawing.Color.Transparent
-        Me.Button5.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
-        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button5.FlatAppearance.BorderSize = 0
-        Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.ForeColor = System.Drawing.Color.Transparent
-        Me.Button5.Location = New System.Drawing.Point(372, 330)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(37, 32)
-        Me.Button5.TabIndex = 8
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.quinze.BackColor = System.Drawing.Color.Transparent
+        Me.quinze.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
+        Me.quinze.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.quinze.FlatAppearance.BorderSize = 0
+        Me.quinze.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.quinze.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.quinze.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.quinze.ForeColor = System.Drawing.Color.Transparent
+        Me.quinze.Location = New System.Drawing.Point(372, 330)
+        Me.quinze.Name = "quinze"
+        Me.quinze.Size = New System.Drawing.Size(37, 32)
+        Me.quinze.TabIndex = 8
+        Me.quinze.UseVisualStyleBackColor = False
         '
-        'Button6
+        'quatro
         '
-        Me.Button6.BackColor = System.Drawing.Color.Transparent
-        Me.Button6.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
-        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button6.FlatAppearance.BorderSize = 0
-        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.ForeColor = System.Drawing.Color.Transparent
-        Me.Button6.Location = New System.Drawing.Point(441, 205)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(37, 32)
-        Me.Button6.TabIndex = 9
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.quatro.BackColor = System.Drawing.Color.Transparent
+        Me.quatro.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
+        Me.quatro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.quatro.FlatAppearance.BorderSize = 0
+        Me.quatro.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.quatro.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.quatro.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.quatro.ForeColor = System.Drawing.Color.Transparent
+        Me.quatro.Location = New System.Drawing.Point(441, 205)
+        Me.quatro.Name = "quatro"
+        Me.quatro.Size = New System.Drawing.Size(37, 32)
+        Me.quatro.TabIndex = 9
+        Me.quatro.UseVisualStyleBackColor = False
         '
-        'Button7
+        'onze
         '
-        Me.Button7.BackColor = System.Drawing.Color.Transparent
-        Me.Button7.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
-        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button7.FlatAppearance.BorderSize = 0
-        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.ForeColor = System.Drawing.Color.Transparent
-        Me.Button7.Location = New System.Drawing.Point(513, 268)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(37, 32)
-        Me.Button7.TabIndex = 10
-        Me.Button7.UseVisualStyleBackColor = False
+        Me.onze.BackColor = System.Drawing.Color.Transparent
+        Me.onze.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
+        Me.onze.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.onze.FlatAppearance.BorderSize = 0
+        Me.onze.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.onze.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.onze.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.onze.ForeColor = System.Drawing.Color.Transparent
+        Me.onze.Location = New System.Drawing.Point(513, 268)
+        Me.onze.Name = "onze"
+        Me.onze.Size = New System.Drawing.Size(37, 32)
+        Me.onze.TabIndex = 10
+        Me.onze.UseVisualStyleBackColor = False
         '
-        'Button8
+        'tres
         '
-        Me.Button8.BackColor = System.Drawing.Color.Transparent
-        Me.Button8.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
-        Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button8.FlatAppearance.BorderSize = 0
-        Me.Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.ForeColor = System.Drawing.Color.Transparent
-        Me.Button8.Location = New System.Drawing.Point(372, 205)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(37, 32)
-        Me.Button8.TabIndex = 11
-        Me.Button8.UseVisualStyleBackColor = False
+        Me.tres.BackColor = System.Drawing.Color.Transparent
+        Me.tres.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
+        Me.tres.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.tres.FlatAppearance.BorderSize = 0
+        Me.tres.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.tres.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.tres.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.tres.ForeColor = System.Drawing.Color.Transparent
+        Me.tres.Location = New System.Drawing.Point(372, 205)
+        Me.tres.Name = "tres"
+        Me.tres.Size = New System.Drawing.Size(37, 32)
+        Me.tres.TabIndex = 11
+        Me.tres.UseVisualStyleBackColor = False
         '
-        'Button9
+        'cinco
         '
-        Me.Button9.BackColor = System.Drawing.Color.Transparent
-        Me.Button9.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
-        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button9.FlatAppearance.BorderSize = 0
-        Me.Button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.ForeColor = System.Drawing.Color.Transparent
-        Me.Button9.Location = New System.Drawing.Point(513, 205)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(37, 32)
-        Me.Button9.TabIndex = 12
-        Me.Button9.UseVisualStyleBackColor = False
+        Me.cinco.BackColor = System.Drawing.Color.Transparent
+        Me.cinco.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
+        Me.cinco.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.cinco.FlatAppearance.BorderSize = 0
+        Me.cinco.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.cinco.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.cinco.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cinco.ForeColor = System.Drawing.Color.Transparent
+        Me.cinco.Location = New System.Drawing.Point(513, 205)
+        Me.cinco.Name = "cinco"
+        Me.cinco.Size = New System.Drawing.Size(37, 32)
+        Me.cinco.TabIndex = 12
+        Me.cinco.UseVisualStyleBackColor = False
         '
-        'Button10
+        'sete
         '
-        Me.Button10.BackColor = System.Drawing.Color.Transparent
-        Me.Button10.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
-        Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button10.FlatAppearance.BorderSize = 0
-        Me.Button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.ForeColor = System.Drawing.Color.Transparent
-        Me.Button10.Location = New System.Drawing.Point(238, 268)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(37, 32)
-        Me.Button10.TabIndex = 13
-        Me.Button10.UseVisualStyleBackColor = False
+        Me.sete.BackColor = System.Drawing.Color.Transparent
+        Me.sete.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
+        Me.sete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.sete.FlatAppearance.BorderSize = 0
+        Me.sete.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.sete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.sete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.sete.ForeColor = System.Drawing.Color.Transparent
+        Me.sete.Location = New System.Drawing.Point(238, 268)
+        Me.sete.Name = "sete"
+        Me.sete.Size = New System.Drawing.Size(37, 32)
+        Me.sete.TabIndex = 13
+        Me.sete.UseVisualStyleBackColor = False
         '
-        'Button11
+        'nove
         '
-        Me.Button11.BackColor = System.Drawing.Color.Transparent
-        Me.Button11.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
-        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button11.FlatAppearance.BorderSize = 0
-        Me.Button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.ForeColor = System.Drawing.Color.Transparent
-        Me.Button11.Location = New System.Drawing.Point(372, 268)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(37, 32)
-        Me.Button11.TabIndex = 14
-        Me.Button11.UseVisualStyleBackColor = False
+        Me.nove.BackColor = System.Drawing.Color.Transparent
+        Me.nove.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
+        Me.nove.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.nove.FlatAppearance.BorderSize = 0
+        Me.nove.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.nove.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.nove.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.nove.ForeColor = System.Drawing.Color.Transparent
+        Me.nove.Location = New System.Drawing.Point(372, 268)
+        Me.nove.Name = "nove"
+        Me.nove.Size = New System.Drawing.Size(37, 32)
+        Me.nove.TabIndex = 14
+        Me.nove.UseVisualStyleBackColor = False
         '
-        'Button12
+        'dez
         '
-        Me.Button12.BackColor = System.Drawing.Color.Transparent
-        Me.Button12.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
-        Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button12.FlatAppearance.BorderSize = 0
-        Me.Button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button12.ForeColor = System.Drawing.Color.Transparent
-        Me.Button12.Location = New System.Drawing.Point(441, 268)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(37, 32)
-        Me.Button12.TabIndex = 15
-        Me.Button12.UseVisualStyleBackColor = False
+        Me.dez.BackColor = System.Drawing.Color.Transparent
+        Me.dez.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
+        Me.dez.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.dez.FlatAppearance.BorderSize = 0
+        Me.dez.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.dez.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.dez.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.dez.ForeColor = System.Drawing.Color.Transparent
+        Me.dez.Location = New System.Drawing.Point(441, 268)
+        Me.dez.Name = "dez"
+        Me.dez.Size = New System.Drawing.Size(37, 32)
+        Me.dez.TabIndex = 15
+        Me.dez.UseVisualStyleBackColor = False
         '
-        'Button13
+        'quatorze
         '
-        Me.Button13.BackColor = System.Drawing.Color.Transparent
-        Me.Button13.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
-        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button13.FlatAppearance.BorderSize = 0
-        Me.Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button13.ForeColor = System.Drawing.Color.Transparent
-        Me.Button13.Location = New System.Drawing.Point(306, 330)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(37, 32)
-        Me.Button13.TabIndex = 16
-        Me.Button13.UseVisualStyleBackColor = False
+        Me.quatorze.BackColor = System.Drawing.Color.Transparent
+        Me.quatorze.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
+        Me.quatorze.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.quatorze.FlatAppearance.BorderSize = 0
+        Me.quatorze.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.quatorze.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.quatorze.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.quatorze.ForeColor = System.Drawing.Color.Transparent
+        Me.quatorze.Location = New System.Drawing.Point(306, 330)
+        Me.quatorze.Name = "quatorze"
+        Me.quatorze.Size = New System.Drawing.Size(37, 32)
+        Me.quatorze.TabIndex = 16
+        Me.quatorze.UseVisualStyleBackColor = False
         '
-        'Button14
+        'dezasseis
         '
-        Me.Button14.BackColor = System.Drawing.Color.Transparent
-        Me.Button14.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
-        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button14.FlatAppearance.BorderSize = 0
-        Me.Button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button14.ForeColor = System.Drawing.Color.Transparent
-        Me.Button14.Location = New System.Drawing.Point(441, 330)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(37, 32)
-        Me.Button14.TabIndex = 17
-        Me.Button14.UseVisualStyleBackColor = False
+        Me.dezasseis.BackColor = System.Drawing.Color.Transparent
+        Me.dezasseis.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
+        Me.dezasseis.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.dezasseis.FlatAppearance.BorderSize = 0
+        Me.dezasseis.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.dezasseis.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.dezasseis.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.dezasseis.ForeColor = System.Drawing.Color.Transparent
+        Me.dezasseis.Location = New System.Drawing.Point(441, 330)
+        Me.dezasseis.Name = "dezasseis"
+        Me.dezasseis.Size = New System.Drawing.Size(37, 32)
+        Me.dezasseis.TabIndex = 17
+        Me.dezasseis.UseVisualStyleBackColor = False
         '
-        'Button15
+        'dezoito
         '
-        Me.Button15.BackColor = System.Drawing.Color.Transparent
-        Me.Button15.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
-        Me.Button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button15.FlatAppearance.BorderSize = 0
-        Me.Button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button15.ForeColor = System.Drawing.Color.Transparent
-        Me.Button15.Location = New System.Drawing.Point(568, 330)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(37, 32)
-        Me.Button15.TabIndex = 18
-        Me.Button15.UseVisualStyleBackColor = False
+        Me.dezoito.BackColor = System.Drawing.Color.Transparent
+        Me.dezoito.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.alvo
+        Me.dezoito.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.dezoito.FlatAppearance.BorderSize = 0
+        Me.dezoito.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.dezoito.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.dezoito.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.dezoito.ForeColor = System.Drawing.Color.Transparent
+        Me.dezoito.Location = New System.Drawing.Point(568, 330)
+        Me.dezoito.Name = "dezoito"
+        Me.dezoito.Size = New System.Drawing.Size(37, 32)
+        Me.dezoito.TabIndex = 18
+        Me.dezoito.UseVisualStyleBackColor = False
         '
-        'Button16
+        'dezasete
         '
-        Me.Button16.BackColor = System.Drawing.Color.Transparent
-        Me.Button16.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
-        Me.Button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button16.FlatAppearance.BorderSize = 0
-        Me.Button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.ForeColor = System.Drawing.Color.Transparent
-        Me.Button16.Location = New System.Drawing.Point(513, 330)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(37, 32)
-        Me.Button16.TabIndex = 19
-        Me.Button16.UseVisualStyleBackColor = False
+        Me.dezasete.BackColor = System.Drawing.Color.Transparent
+        Me.dezasete.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
+        Me.dezasete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.dezasete.FlatAppearance.BorderSize = 0
+        Me.dezasete.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.dezasete.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.dezasete.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.dezasete.ForeColor = System.Drawing.Color.Transparent
+        Me.dezasete.Location = New System.Drawing.Point(513, 330)
+        Me.dezasete.Name = "dezasete"
+        Me.dezasete.Size = New System.Drawing.Size(37, 32)
+        Me.dezasete.TabIndex = 19
+        Me.dezasete.UseVisualStyleBackColor = False
         '
-        'Button17
+        'doze
         '
-        Me.Button17.BackColor = System.Drawing.Color.Transparent
-        Me.Button17.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
-        Me.Button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button17.FlatAppearance.BorderSize = 0
-        Me.Button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
-        Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button17.ForeColor = System.Drawing.Color.Transparent
-        Me.Button17.Location = New System.Drawing.Point(568, 268)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(37, 32)
-        Me.Button17.TabIndex = 20
-        Me.Button17.UseVisualStyleBackColor = False
+        Me.doze.BackColor = System.Drawing.Color.Transparent
+        Me.doze.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.pato
+        Me.doze.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.doze.FlatAppearance.BorderSize = 0
+        Me.doze.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.doze.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.doze.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.doze.ForeColor = System.Drawing.Color.Transparent
+        Me.doze.Location = New System.Drawing.Point(568, 268)
+        Me.doze.Name = "doze"
+        Me.doze.Size = New System.Drawing.Size(37, 32)
+        Me.doze.TabIndex = 20
+        Me.doze.UseVisualStyleBackColor = False
         '
         'Form1
         '
@@ -371,49 +371,49 @@ Partial Class Form1
         Me.Controls.Add(Me.ProgressBar3)
         Me.Controls.Add(Me.ProgressBar2)
         Me.Controls.Add(Me.ProgressBar1)
+        Me.Controls.Add(Me.um)
         Me.Controls.Add(Me.dois)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button13)
-        Me.Controls.Add(Me.Button14)
-        Me.Controls.Add(Me.Button15)
-        Me.Controls.Add(Me.Button16)
-        Me.Controls.Add(Me.Button17)
+        Me.Controls.Add(Me.oito)
+        Me.Controls.Add(Me.seis)
+        Me.Controls.Add(Me.treze)
+        Me.Controls.Add(Me.quinze)
+        Me.Controls.Add(Me.quatro)
+        Me.Controls.Add(Me.onze)
+        Me.Controls.Add(Me.tres)
+        Me.Controls.Add(Me.cinco)
+        Me.Controls.Add(Me.sete)
+        Me.Controls.Add(Me.nove)
+        Me.Controls.Add(Me.dez)
+        Me.Controls.Add(Me.quatorze)
+        Me.Controls.Add(Me.dezasseis)
+        Me.Controls.Add(Me.dezoito)
+        Me.Controls.Add(Me.dezasete)
+        Me.Controls.Add(Me.doze)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents dois As Button
+    Friend WithEvents um As Button
     Friend WithEvents ProgressBar1 As ProgressBar
     Friend WithEvents ProgressBar2 As ProgressBar
     Friend WithEvents ProgressBar3 As ProgressBar
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button13 As Button
-    Friend WithEvents Button14 As Button
-    Friend WithEvents Button15 As Button
-    Friend WithEvents Button16 As Button
-    Friend WithEvents Button17 As Button
+    Friend WithEvents dois As Button
+    Friend WithEvents oito As Button
+    Friend WithEvents seis As Button
+    Friend WithEvents treze As Button
+    Friend WithEvents quinze As Button
+    Friend WithEvents quatro As Button
+    Friend WithEvents onze As Button
+    Friend WithEvents tres As Button
+    Friend WithEvents cinco As Button
+    Friend WithEvents sete As Button
+    Friend WithEvents nove As Button
+    Friend WithEvents dez As Button
+    Friend WithEvents quatorze As Button
+    Friend WithEvents dezasseis As Button
+    Friend WithEvents dezoito As Button
+    Friend WithEvents dezasete As Button
+    Friend WithEvents doze As Button
 End Class
