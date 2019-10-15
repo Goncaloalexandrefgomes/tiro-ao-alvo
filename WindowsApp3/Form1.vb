@@ -32,8 +32,6 @@
 
 
 
-
-
     Private Sub Um_Click(sender As Object, e As EventArgs) Handles um.Click
         um.Visible = False
     End Sub
@@ -110,9 +108,27 @@
         Beep()
         Dim resposta = MsgBox("Tem a Certeza", vbYesNo, "Novo Jogo")
         If resposta = vbNo Then Return
+        Application.Restart()
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Cursor = Cursors.Cross
+    End Sub
+
+    Private Sub perder()
+        Label1.Text = "00:00:01:00"
+        Timer1.Stop()
+        stopwatch.Stop()
+        Beep()
+        MsgBox("Parabens!! Perdeste!",, "Fim de Jogo")
+        Application.Restart()
+
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+        Beep()
+        Dim resposta = MsgBox("Tem a Certeza", vbYesNo, "Novo Jogo")
+        If resposta = vbNo Then Return
+        perder()
     End Sub
 End Class

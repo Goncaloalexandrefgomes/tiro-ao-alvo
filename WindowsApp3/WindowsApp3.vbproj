@@ -134,5 +134,10 @@
   <ItemGroup>
     <None Include="Resources\alvo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\pontuaçao.png" />
+    <None Include="Resources\trofeu.png" />
+    <None Include="Resources\pontuaçao1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

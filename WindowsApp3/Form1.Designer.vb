@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Descartar substituições de formulário para limpar a lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'OBSERVAÇÃO: o procedimento a seguir é exigido pelo Windows Form Designer
     'Pode ser modificado usando o Windows Form Designer.  
     'Não o modifique usando o editor de códigos.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.um = New System.Windows.Forms.Button()
@@ -51,6 +51,7 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.ProgressBar4 = New System.Windows.Forms.ProgressBar()
         Me.SuspendLayout()
         '
         'um
@@ -373,7 +374,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 53)
+        Me.Button1.Location = New System.Drawing.Point(12, 68)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 21
@@ -382,7 +383,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(93, 53)
+        Me.Button2.Location = New System.Drawing.Point(93, 68)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 22
@@ -391,7 +392,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(12, 82)
+        Me.Button3.Location = New System.Drawing.Point(12, 97)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 23
@@ -402,7 +403,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(24, 25)
+        Me.Label1.Location = New System.Drawing.Point(24, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(126, 25)
         Me.Label1.TabIndex = 24
@@ -411,20 +412,27 @@ Partial Class Form1
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(620, 10)
+        Me.ListBox1.Location = New System.Drawing.Point(672, 10)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(168, 95)
+        Me.ListBox1.Size = New System.Drawing.Size(116, 95)
         Me.ListBox1.TabIndex = 25
         '
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(211, 380)
+        Me.Button4.Location = New System.Drawing.Point(346, 377)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(103, 28)
         Me.Button4.TabIndex = 26
         Me.Button4.Text = "Novo Jogo"
         Me.Button4.UseVisualStyleBackColor = True
+        '
+        'ProgressBar4
+        '
+        Me.ProgressBar4.Location = New System.Drawing.Point(12, 37)
+        Me.ProgressBar4.Name = "ProgressBar4"
+        Me.ProgressBar4.Size = New System.Drawing.Size(156, 21)
+        Me.ProgressBar4.TabIndex = 27
         '
         'Form1
         '
@@ -434,6 +442,7 @@ Partial Class Form1
         Me.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.circo
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.ProgressBar4)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -496,4 +505,5 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents ListBox1 As ListBox
     Friend WithEvents Button4 As Button
+    Friend WithEvents ProgressBar4 As ProgressBar
 End Class
