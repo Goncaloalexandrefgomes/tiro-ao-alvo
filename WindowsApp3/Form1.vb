@@ -9,40 +9,21 @@
             Label1.Text = Val(Label1.Text) - 1
         ElseIf Label1.Text = 0 Then
             Timer1.Enabled = False
-            MsgBox("Acabou o tempo")
+            Beep()
+            Dim resposta = MsgBox("Nao conseguiste atingir todos os alvos a tempo, Tentar Novamente ?", vbYesNo, "Novo Jogo")
+            If resposta = vbNo Then Return
+
+            Application.Restart()
         Else
             Label1.Text = Val(Label1.Text) - 1
 
         End If
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If Button1.Text = "Start" Then
-            Timer1.Start()
-            stopwatch.Start()
-            Button1.Text = "Stop"
-            Button3.Enabled = False
-        Else
-            Timer1.Stop()
-            stopwatch.Stop()
-            Button1.Text = "Start"
-            Button3.Enabled = True
-        End If
-    End Sub
-
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        ListBox1.Items.Add(ListBox1.Items.Count + 1 & ". " & Label1.Text)
-    End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        stopwatch.Reset()
-        Label1.Text = "00:00:00:00"
-    End Sub
-
-
-
     Private Sub Um_Click(sender As Object, e As EventArgs) Handles um.Click
+
         um.Visible = False
+
     End Sub
 
     Private Sub Dois_Click(sender As Object, e As EventArgs) Handles dois.Click
@@ -124,24 +105,14 @@
         Cursor = Cursors.Cross
     End Sub
 
-    Private Sub perder()
-        Label1.Text = "00:00:01:00"
-        Timer1.Stop()
-        stopwatch.Stop()
-        Beep()
-        MsgBox("Parabens!! Perdeste!",, "Fim de Jogo")
-        Application.Restart()
 
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-        Beep()
-        Dim resposta = MsgBox("Tem a Certeza", vbYesNo, "Novo Jogo")
-        If resposta = vbNo Then Return
-        perder()
-    End Sub
-
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Label1.ForeColor = Color.Green
+        If Timer1.Enabled = True Then
+            Timer1.Start()
+        Else
+            Label1.Text = 20
+            Timer1.Start()
+        End If
     End Sub
 End Class
