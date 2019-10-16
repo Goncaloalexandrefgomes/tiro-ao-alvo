@@ -12,7 +12,6 @@
             Beep()
             Dim resposta = MsgBox("Nao conseguiste atingir todos os alvos a tempo, Tentar Novamente ?", vbYesNo, "Novo Jogo")
             If resposta = vbNo Then Return
-
             Application.Restart()
         Else
             Label1.Text = Val(Label1.Text) - 1
@@ -33,6 +32,7 @@
 
     Private Sub verificar()
         If um.Visible = False And dois.Visible = False And tres.Visible = False And quatro.Visible = False And cinco.Visible = False And seis.Visible = False And sete.Visible = False And oito.Visible = False And nove.Visible = False And dez.Visible = False And onze.Visible = False And doze.Visible = False And treze.Visible = False And quatorze.Visible = False And quinze.Visible = False And dezasseis.Visible = False And dezasete.Visible = False And dezoito.Visible = False Then
+            Timer1.Stop()
             MsgBox("Parabens, Atingiste todos os alvos a tempo")
             Dim resposta = MsgBox("Parabens quer voltar a jogar ?", vbYesNo, "Novo Jogo")
             If resposta = vbNo Then Return
