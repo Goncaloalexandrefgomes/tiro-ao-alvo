@@ -52,6 +52,8 @@ Partial Class Form1
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.ProgressBar4 = New System.Windows.Forms.ProgressBar()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'um
@@ -434,6 +436,25 @@ Partial Class Form1
         Me.ProgressBar4.Size = New System.Drawing.Size(156, 21)
         Me.ProgressBar4.TabIndex = 27
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(202, 22)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(38, 25)
+        Me.Label2.TabIndex = 28
+        Me.Label2.Text = "20"
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(200, 59)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(75, 23)
+        Me.Button5.TabIndex = 29
+        Me.Button5.Text = "Start"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -442,6 +463,8 @@ Partial Class Form1
         Me.BackgroundImage = Global.WindowsApp3.My.Resources.Resources.circo
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ProgressBar4)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button3)
@@ -506,4 +529,6 @@ Partial Class Form1
     Friend WithEvents ListBox1 As ListBox
     Friend WithEvents Button4 As Button
     Friend WithEvents ProgressBar4 As ProgressBar
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Button5 As Button
 End Class

@@ -1,10 +1,19 @@
 ﻿Public Class Form1
     Private stopwatch As New Stopwatch
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        Dim elapsed As TimeSpan = Stopwatch.Elapsed
-        Label1.Text = String.Format("{0: 00}:{1:00}:{2:00}:{3:00}",
-                                    Math.Floor(elapsed.TotalHours),
-                                    elapsed.Minutes, elapsed.Seconds, elapsed.Milliseconds)
+        Timer1.Start()
+        Timer1.Interval = 500
+
+        If Label1.Text = 10 Then
+            Label1.ForeColor = Color.Red
+            Label1.Text = Val(Label1.Text) - 1
+        ElseIf Label1.Text = 0 Then
+            Timer1.Enabled = False
+            MsgBox("Acabou o tempo")
+        Else
+            Label1.Text = Val(Label1.Text) - 1
+
+        End If
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -130,5 +139,9 @@
         Dim resposta = MsgBox("Tem a Certeza", vbYesNo, "Novo Jogo")
         If resposta = vbNo Then Return
         perder()
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+
     End Sub
 End Class
