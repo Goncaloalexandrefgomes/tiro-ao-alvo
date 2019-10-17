@@ -47,6 +47,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Roundicons-100-Free-Solid-Target.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -136,6 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\pontuaçao.png" />
+    <Content Include="Roundicons-100-Free-Solid-Target.ico" />
     <None Include="Resources\trofeu.png" />
     <None Include="Resources\pontuaçao1.png" />
   </ItemGroup>
