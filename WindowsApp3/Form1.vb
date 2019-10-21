@@ -1,5 +1,16 @@
 ﻿Public Class Form1
-    Private stopwatch As New Stopwatch
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Label1.ForeColor = Color.Green
+        If Timer1.Enabled = True Then
+            Timer1.Start()
+        Else
+            Label1.Text = 15
+            Timer1.Start()
+        End If
+    End Sub
+
+
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Timer1.Start()
         Timer1.Interval = 500
@@ -16,16 +27,6 @@
         Else
             Label1.Text = Val(Label1.Text) - 1
 
-        End If
-    End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Label1.ForeColor = Color.Green
-        If Timer1.Enabled = True Then
-            Timer1.Start()
-        Else
-            Label1.Text = 15
-            Timer1.Start()
         End If
     End Sub
 

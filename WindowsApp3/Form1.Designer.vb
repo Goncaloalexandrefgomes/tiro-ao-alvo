@@ -431,7 +431,7 @@ Partial Class Form1
         Me.Controls.Add(Me.doze)
         Me.Controls.Add(Me.Button4)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Tiro ao Alvo"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
